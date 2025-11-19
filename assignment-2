@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body { font-family: serif; text-align: center; }
+    .plans { display: flex; justify-content: center; gap: 40px; margin-top: 40px; }
+    .plan { width: 220px; }
+    .price { font-size: 24px; font-weight: bold; }
+    .green { color: green; }
+    .gold { color: goldenrod; }
+    .blue { color: #2c2ca0; }
+    button { margin-top: 15px; padding: 8px 20px; font-size: 16px; }
+</style>
+</head>
+<body>
+
+<h1>Choose a plan that right for<br>your business</h1>
+<p>We collect reviews from our users so you can get an honest opinion of what<br>
+an experience with our website are really like!</p>
+
+<div class="plans">
+
+    <div class="plan">
+        <h3>Starter Plan</h3>
+        <div class="price green">Free</div>
+        <p>Per month</p>
+        <p>We collect reviews from our users so you can get an honest opinion of our website.</p>
+        <button>Start Now</button>
+    </div>
+
+    <div class="plan">
+        <h3>Starter Plan</h3>
+        <div class="price gold">$39.00</div>
+        <p>Per month</p>
+        <p>We collect reviews from our users so you can get an honest opinion of our website.</p>
+        <button>Start Now</button>
+    </div>
+
+    <div class="plan">
+        <h3>Starter Plan</h3>
+        <div class="price blue">$59.00</div>
+        <p>Per month</p>
+        <p>We collect reviews from our users so you can get an honest opinion of our website.</p>
+        <button>Start Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
