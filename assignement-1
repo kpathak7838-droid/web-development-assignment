@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { font-family: Arial; }
+  .grid { 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr); 
+    gap: 20px; 
+    text-align: center;
+  }
+  img { width: 100%; height: 300px; object-fit: cover; }
+  button { padding: 6px 15px; background: blue; color: white; border: none; }
+</style>
+</head>
+<body>
+
+<div class="grid">
+
+  <div>
+    <img src="https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg?region=0%2C0%2C540%2C810">
+    <h3>Doctor Strange 2</h3>
+    <p>Rating: 4.5</p>
+    <button>Book now</button>
+  </div>
+
+  <div>
+    <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p173317_p_v8_ab.jpg">
+    <h3>Bhool Bhulaiyaa 2</h3>
+    <p>Rating: 4.5</p>
+    <button>Book now</button>
+  </div>
+
+  <div>
+    <img src="https://m.media-amazon.com/images/M/MV5BZDk0M2VjNDMtOWI1OC00ZWY3LWIyM2YtZDdjNDQ1MzkzODM1XkEyXkFqcGc@._V1_.jpg">
+    <h3>Jayeshbhai Jordaar</h3>
+    <p>Rating: 4.5</p>
+    <button>Book now</button>
+  </div>
+
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/ce/JurassicWorldDominion_Poster.jpeg">
+    <h3>Jurasic World</h3>
+    <p>Rating: 4.5</p>
+    <button>Book now</button>
+  </div>
+
+  <div>
+    <img src="https://www.rajhanscinemas.com/MovieImages/kgf2.jpg">
+    <h3>KGF2</h3>
+    <p>Rating: 4.5</p>
+    <button>Book now</button>
+  </div>
+
+  <div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6j7Ljof_xzTZFEWtvZ9XHIYlGp8VrNRIRTQ&s">
+    <h3>RRR</h3>
+    <p>Rating: 4.5</p>
+    <button>Book now</button>
+  </div>
+
+</div>
+
+</body>
+</html>
