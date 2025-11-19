@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body { font-family: Arial; background:#f6f4f0; padding:30px; }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1000px;
+        margin:auto;
+    }
+    .item {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .head {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .price { color: #c9a341; }
+    p { margin: 0; font-size: 14px; color: #555; line-height: 1.4; }
+</style>
+</head>
+<body>
+
+<div class="grid">
+
+    <div class="item">
+        <div class="head"><span>Cappuccino</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Americano</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Espresso</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Macchiato</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Mocha</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Coffee Latte</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Piccolo Latte</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Ristretto</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+    <div class="item">
+        <div class="head"><span>Affogato</span><span class="price">$49</span></div>
+        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
